@@ -1,0 +1,19 @@
+name: patch
+channels:
+  - pytorch
+  - astra-toolbox
+dependencies:
+  - python=3.9.13
+  - numpy=1.23.3
+  - scikit-learn=1.1.2
+  - scikit-image=0.19.3
+  - joblib=1.1.1
+  - pytorch::pytorch=1.12.1
+  - pytorch::torchvision=0.13.1
+  - astra-toolbox::astra-toolbox=2.1.2
+  - pip
+  - pip:
+    - freia==0.2
+    - geomloss==0.2.6
+    - dival==0.6.1
+    - pykeops
