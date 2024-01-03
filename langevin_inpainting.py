@@ -19,7 +19,7 @@ import regularizer.NFReg as NFmodel
 import regularizer.EPLLReg as EPLLmodel
 import regularizer.WReg as Wmodel
 import regularizer.ALR as ALRmodel
-#import regularizer.SuSReg as SuSmodel
+import regularizer.SuSReg as SuSmodel
 import regularizer.SReg as Smodel
 
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
